@@ -147,6 +147,16 @@ a.left-header {
     max-width: 100%;
 }
 
+.logo-subtext{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 150px;
+    position: relative;
+    top: 15px;
+    white-space: nowrap;
+}
+
+
 
 
 /* search bar section  */
