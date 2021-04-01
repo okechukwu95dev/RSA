@@ -12,51 +12,113 @@
 <body>
     <div class = "container">
         <!-- header section -->
-        <section class = 'header'>
+        <section class = 'header-ad'>
             <!-- left header content -->
-            <a class = "left-header about" href= "#">About</a>
-            <a class = "left-header store" href= "#">Store</a>
+            
+            <div class = 'logo-wrapper-ad'> 
+                <img class = 'logo-img-ad' alt ='Google' src = 'images/logo.png'>
+            </div>
             <!-- right header content -->
             <div class = "right-header-divider"></div>
+           
             <a href="index.html" class="right-header-item" alt="gmail">Home</a>
             <a class="right-header-item" href="imagesearch.html" alt="image">Images</a>
             <a href="#"><img class="nav-button header-icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/99016-200.png"></a>
             <a href="#" class="nav-button right-header-item" id="sign-in">Sign in</a>
         </section>
 
+        <!-- advanced search heading section  -->
+
+        <div class="appbar">
+             <label style="margin-left:10px"> Advanced Search</label>  
+             </div>
+
+
+
+        <!-- horizontal rule before forms -->
+        <div class="rule"></div>
+
+
+       
 
         <!-- logo section  -->
-        <section class = 'logo-section'>
-            <div class = 'logo-wrapper'> 
-                <img class = 'logo-img' alt ='Google' src = 'images/logo.png'>
-            </div>
+        <section class = 'form-section-ad'>
+            <form action="https://google.com/search">
+
+                <!-- find heading -->
+                <div class = 'find'>
+                    <span class = 'find'>Find pages with...</span>
+                </div>
+
+
+                <!-- queries -->
+                <div class = 'queries'>
+                    <!-- query1  -->
+                    <div class = 'query'>
+                        <div class = 'labs'>
+                            <label for="as_q"><span >all these words: </span></label>
+                        </div>
+                        <div class = 'inputs'>
+                            <input class ='entry' type="text" id="as_q" name="as_q">
+                        </div>
+                        <div class = 'prompts'>
+                            <p>Type the important words:  tricolor rat terrier</p>
+                        </div>
+                    </div>
+                    
+
+
+                    <!-- query 2 -->
+                    <div class = 'query'>
+                    <div class = 'labs'>
+                        <label for="as_epq"><span >this exact word or phrase: </span></label>
+                    </div>
+                    <div class = 'inputs'>
+                        <input class ='entry' type="text" id="as_epq" name="as_epq">
+                    </div>
+                    <div class = 'prompts'>
+                        <p>Put exact words in quotes:  "rat terrier"</p>
+                    </div>
+                    </div>
+
+                    <!-- query 3  -->
+                    <div class = 'query'>
+                    <div class = 'labs'>
+                        <label for="as_oq"><span >any of these words: </span></label>
+                    </div>
+                    <div class = 'inputs'>
+                        <input class ='entry' type="text" id="as_oq" name="as_oq">
+                    </div>
+                    <div class = 'prompts'>
+                        <p>Type OR between all the words you want:  miniature OR standard</p>
+                    </div>
+                    </div>
+
+                    <!-- query 4  -->
+                    <div class = 'query'>
+                    <div class = 'labs'>
+                        <label for="as_eq"><span >none of these words: </span></label>
+                    </div>
+                    <div class = 'inputs'>
+                        <input class ='entry' type="text" id="as_eq" name="as_eq">
+                    </div>
+                    <div class = 'prompts'>
+                        <p>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- form inputs -->
+                <input type="submit" value="Google Search">
+                <!-- <input type="text" name="q"> -->
+        
         </section>
 
         <!-- search box section -->
         <section class="s-container" style="text-align: center;">
      
-            <!-- search box -->
-        <form action="https://google.com/search">
-            <div class="search">
-                <span class="s-icon">
-                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                    </svg>
-                </span>
-                
 
-                <!-- google input form HTML -->
 
-                <input type="text" class="input"name="q">
-                <img class="voiceSearch" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
-            </div>
-            <!-- buttons -->
-            <div class="btn">
-                <button class="btns" type ="submit">Google Search</button>
-                <button class="btns">I'm Feeeling Lucky</button>
-            </div>
-        </form>
-        </section>
 
         <!-- footer section  -->
         <div class = 'break'></div>
